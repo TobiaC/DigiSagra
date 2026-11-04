@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+  <title>Pesca di Beneficenza</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1f3a6e">
+  <link rel="apple-touch-icon" href="icon-192.png">
+</head>
+<body>
+
+
+        <div class="card">
+          <h1> Ferragosto torsese in Pesca 🍑  </h1>
+          <p class="subtitle">Inserisci il numero estratto</p>
+
+          <form id="form-numero" autocomplete="off">
+            <input
+              type="number"
+              id="input-numero"
+              inputmode="numeric"
+              placeholder="Es. 12"
+              min="1"
+              required
+            >
+            <button type="submit">Cerca</button>
+            </form>
+
+          <div id="risultato" class="risultato nascosto"></div>
+          </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
